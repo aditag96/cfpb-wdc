@@ -1,0 +1,21 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CFPB Complaints WDC</title>
+  <script src="https://connectors.tableau.com/libs/tableauwdc-2.3.latest.js"></script>
+  <script src="connector.js"></script>
+</head>
+<body>
+  <h1>CFPB Complaints Web Data Connector</h1>
+  <form id="form">
+    <label for="start_date">Start Date (YYYY-MM-DD):</label>
+    <input type="text" id="start_date" placeholder="2024-01-01" required />
+    <label for="end_date">End Date (YYYY-MM-DD):</label>
+    <input type="text" id="end_date" placeholder="2024-12-31" required />
+    <button type="submit" id="submit">Get Data</button>
+  </form>
+</body>
+</html>
+```
